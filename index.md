@@ -10,10 +10,10 @@ graduated middle school.
 	When I came back to Brazil I moved back to Brasília and attended the military school of Brasília (cmb) where I joined
 the Marching Band, the Foreign Relations Club, Robotics Club, and the Literary and Recreational Society.
 
-\
- \       
-  \         
-   \             
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
             
 ## Projects
 
