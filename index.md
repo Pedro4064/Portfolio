@@ -11,10 +11,10 @@ graduated middle school.
 the Marching Band, the Foreign Relations Club, Robotics Club, and the Literary and Recreational Society.
 
 
-
-
-
-
+        
+           
+                
+            
 ## Projects
 
 
