@@ -25,3 +25,8 @@ the Marching Band, the Foreign Relations Club, Robotics Club, and the Literary a
 ### Programing 
 
 [![Programing](/Images/Programing/code.png){:height="400px" width="400px"}](https://pedro4064.github.io/Portfolio/test.html)
+
+
+### 3D Modeling
+
+[![3D Modeling](/Images/3D/3D.png){:height="400px" width="400px"}](https://pedro4064.github.io/Portfolio/test.html)
