@@ -22,4 +22,4 @@ the Marching Band, the Foreign Relations Club, Robotics Club, and the Literary a
 
 ### Programing 
 
-[![Programing](/Images/Programing/code.png){:height="36px" width="36px"}](https://pedro4064.github.io/Portfolio/test.html)
+[![Programing](/Images/Programing/code.png){:height="512px" width="512px"}](https://pedro4064.github.io/Portfolio/test.html)
