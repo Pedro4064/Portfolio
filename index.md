@@ -17,9 +17,9 @@ the Marching Band, the Foreign Relations Club, Robotics Club, and the Literary a
 
 ### Robotics
 
-[![button](/Images/Robotics/RobotArm.png)](https://pedro4064.github.io/Portfolio/test.html)
+[![button](/Images/Robotics/RobotArm.png){:height="400px" width="400px"}](https://pedro4064.github.io/Portfolio/test.html)
 
 
 ### Programing 
 
-[![Programing](/Images/Programing/code.png){:height="512px" width="512px"}](https://pedro4064.github.io/Portfolio/test.html)
+[![Programing](/Images/Programing/code.png){:height="400px" width="400px"}](https://pedro4064.github.io/Portfolio/test.html)
