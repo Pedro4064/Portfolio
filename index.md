@@ -14,8 +14,8 @@ the Marching Band, the Foreign Relations Club, Robotics Club, and the Literary a
 
 ## Projects
 
-### Robotics
 
+### Robotics
 
 [![button](/Images/Robotics/RobotArm.png)](https://pedro4064.github.io/Portfolio/test.html)
 
