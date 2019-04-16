@@ -1,3 +1,0 @@
-ROBOTICS
-
-### Header 3
