@@ -21,7 +21,7 @@ The projects are devided into 3 major areas:
 
 ### Programing 
 
-[![Programing](/Images/Programing/code.png){:height="400px" width="400px"}](https://pedro4064.github.io/Portfolio/robotics.md)
+[![Programing](/Images/Programing/code.png){:height="400px" width="400px"}](Portfolio/robotics.md)
 
 
 ### 3d Modeling
