@@ -11,7 +11,8 @@ The following projects were made in my high school years ... bla bla bla somethi
 ## Projects
 The projects are devided into 3 major areas:
 
-
+<br/><br/>
+<br/><br/>
 
 ### Robotics
 
