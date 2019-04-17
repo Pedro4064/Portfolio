@@ -1,6 +1,0 @@
-# Programming 
-
-
-## Python
-
-## C++
