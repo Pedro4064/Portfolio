@@ -1,9 +1,49 @@
+<!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
 
-<h1> Batata<h1/>
-  <p>Olá Tudo Pudim?<p/>
-  <script src="https://embed.github.com/view/3d/Pedro4064/Portfolio/master/STL/PI%20GAMEBOY%20CASE.stl"?height=600&width=1000></script>
-  <br/><br/>
- 
-       
-<html/>
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+</style>
+</head>
+<body>
+
+<h2>Button on Image</h2>
+<p>Add a button to an image:</p>
+
+<div class="container">
+  <img src="https://raw.githubusercontent.com/Pedro4064/Portfolio/master/F65F4A5A-5138-4B8E-B524-50B69BC1B5B0.png" alt="image one" style="width:100%">
+  <button class="btn">Button</button>
+</div>
+
+</body>
+</html>
