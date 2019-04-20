@@ -133,6 +133,35 @@ p {
   top: 40%;
   left: 47%;
 }
+  
+#ArduinoLogo{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  width: 25%;
+  height: auto;
+  background-color: Transparent;
+  border-radius: 15px;
+}
+
+#ArduinoButton{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  width: 25%;
+  height: 40%;
+  background-color: Transparent;
+  color: Transparent;
+  border: none;
+  border-radius: 50%;
+
+}
+
+#ArduinoButton:hover{
+  background-color: #555;
+  color: white;
+  opacity: .5;
+}
 
 </style>
 </head>
@@ -151,13 +180,14 @@ p {
   <p class="p1">
     &emsp;&emsp;I am Pedro Henrique Limeira da Cruz, I was born in Canoas, Rio Grande do Sul, and I had to move quite frequently because of my father, who is in the military. When I was X years old I moved to Natal, where I lived for Y years. After that I moved to Brasilia, where I spent most of my life and attended the Military School of Brasilia (CMB).<br>
     &emsp;&emsp;In 2015 I moved to Maryland, United States of America, where I lived for one year and a half and attended Tilden Middle School, while attending the military school’s long distance learning program.<br>
-    &emsp;&emsp;When I moved back to Brazil I went back to the Military School of Brasília, already in 11th grade (the first year of high school in Brazil), and joined the marching band, the Foreign Relations Club, and the Robotics Laboratory.<br>
-    
+    &emsp;&emsp;When I moved back to Brazil I went back to the Military School of Brasília, already in 11th grade (the first year of high school in Brazil), and joined the marching band, the Foreign Relations Club, and the Robotics Laboratory.<br> 
   </p>
 </div>
 
 <div class="container">
   <img src="https://raw.githubusercontent.com/Pedro4064/Portfolio/master/Images/ImagesHTML/3.png" alt="image 3" style="width:100%">
+  <img id="ArduinoLogo" src="https://raw.githubusercontent.com/Pedro4064/Portfolio/master/Images/ImagesHTML/arduino-icon-2.png" alt="arduino">
+  <button id="ArduinoButton" name="button" onclick="window.location.href='https://pedro4064.github.io/Portfolio/sorry.html'">Arduino Projects</button>
 </div>
 
 <div class="container">
@@ -169,8 +199,7 @@ p {
 
  <div class="container">
     <img src="https://raw.githubusercontent.com/Pedro4064/Portfolio/master/Images/ImagesHTML/05.png" alt="image 5" style="width:100%">
- <button id="Modeling" onclick="window.location.href='https://pedro4064.github.io/Portfolio/3d.html'">View 3d Modeling projects</button>
-
+    <button id="Modeling" onclick="window.location.href='https://pedro4064.github.io/Portfolio/3d.html'">View 3d Modeling projects</button>
 </div>
 
 </body>
