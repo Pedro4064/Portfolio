@@ -1,205 +1,225 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="https://raw.githubusercontent.com/Pedro4064/Portfolio/master/Images/Penguim.png">
-  <title>Pedro Cruz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
 <style>
-body{
-  background-color: #89ebd3;
-}
-.container {
-  position: relative;
-  width: 100%;
-  height: auto;
-  font-size: 0px;
 
-}
-.container img {
-  width: 100%;
-  height: auto;
-  font-size: 0px;
-}
-.container .btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-   Background opacity: 0%
-}
-.container .btn:hover {
-  background-color: black;
-}
+    #title{
 
-.container #Python{
-  position: absolute;
-  top: 33%;
-  left: 87.6%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: Transparent;
-  color: Transparent;
-  font-size: 16px;
-  width: 20%;
-  height:35%;
-  border: none;
-  cursor: pointer;
-  border-radius: 10px;
-  text-align: center;
+        position: absolute;
+        text-align: center;
 
-}
+        font-size: 13vw;
+        font-family: Arial, Helvetica, sans-serif;
 
-.container #Python:hover{
-  background-color: #555;
-  color: white;
-  opacity: .5;
-}
+        color: white;
+        display: inline-block;
 
-.container #cpp{
-  position: absolute;
-  top: 72%;
-  left: 88.2%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: Transparent;
-  color: Transparent;
-  font-size: 16px;
-  width: 20%;
-  height:36%;
-  border: none;
-  cursor: pointer;
-  border-radius: 10px;
-  text-align: center;
+    }
 
-}
 
-.container #cpp:hover{
-  background-color:  #555;
-  color: white;
-  opacity: .5;
-}
+    .transition_rectangle{
 
-.container #Modeling{
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-  text-decoration: none;
-  text-align: center;
+        position: absolute;
+        height: 70vh;
+        width: 1.5vw;
+        
+        
+    }
 
-  opacity: 0;
-  position: absolute;
-  top: 58%;
-  left: 85%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+    .transition_horizontal_rectangle{
 
-  font-size: 16px;
-  width: 30%;
-  height:64%;
-  border: none;
-  cursor: pointer;
-  border-radius: 10px;
+        height: 2vh;
+        width: 35vw;
+        
+        
+        
+    }
 
-}
+    .about_me{
 
-.container #Modeling:hover{
-  background-color: #555;
-  color: white;
-  opacity: .5;
-}
-  
-p {
-  position: absolute;
-  text-align: justify;
-  max-height: 50%;
-  max-width: 100%;
-  overflow: auto;
-  width: 85%;
-  color: black;
-  font-size: 2vw;
-  transform: translate(-50%, -50%);
-}
+        background-color: rgb(122, 233 , 201);
+        position: absolute;
+        top: 100%;
+        right: 0;
+        
+        width: 100%;
+        height: 100%;
+    }
 
-.p1 {
-  top: 40%;
-  left: 47%;
-}
-  
-#ArduinoLogo{
-  position: absolute;
-  top: 15%;
-  left: 80%;
-  width: 15%;
-  height: auto;
-  background-color: Transparent;
-  border-radius: 15px;
-}
+    .robotics{
 
-#ArduinoButton{
-  position: absolute;
-  top: 15%;
-  left: 80%;
-  width: 15%;
-  height: 24.3%;
-  background-color: Transparent;
-  color: Transparent;
-  border: none;
-  border-radius: 50%;
-}
+        position: absolute;
+        top: 200%;
+        right: 0;
+        background-color: white;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .programming{
 
-#ArduinoButton:hover{
-  background-color: #555;
-  color: white;
-  opacity: .5;
-}
+        background-color: rgb(122, 233 , 201);
+        position: absolute;
+
+        height: 100%;
+        width: 100%;
+
+        top: 300%;
+        right: 0;
+    }
+
+    .modelling{
+        background-color: black;
+        position: absolute;
+
+        height: 100%;
+        width: 100%;
+
+        top: 400%;
+        right: 0;
+    }
+
+    body{
+        /* background-image: url("/Users/pedrocruz/Desktop/Programming/webPortifolio/Images/IMG_3769.JPG"); */
+        /* background-size: 75%; */
+        /* background-color: rgb(122, 233 , 201); */
+
+    }
+
+    html { 
+
+        background: url("/Users/pedrocruz/Desktop/Programming/webPortifolio/Images/IMG_3769.JPG") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .title{
+
+        /* background-color: violet; */
+        height: 50%;
+        width: 80%;
+
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+        
+        
+    }
+
+    #arduino_logo{
+
+        position: absolute;
+        right: 5%;
+        top: 210%;
+
+        max-width: 20%;
+        
+        /* max-height: 25%; */
+    }
+    #arduino_logo:hover{
+        opacity: 50%;
+        border-radius: 50%;
+        background-color: rgb(92, 179, 154);
+    }
+
+    .programming_languages{
+
+        height: 33%;
+        width: 100%;
+
+        /* background-color: violet; */
+
+        position: absolute;
+        top: 370%;
+        right: 0;
+    }
+
+    .programming_logo{
+
+        position: absolute;
+        right: 0;
+        
+        /* width: 20%; */
+        max-width: 35%;
+        max-height: 100%;
+
+    }
+
+    .programming_logo:hover{
+
+        opacity: 50%;
+        border-radius: 5%;
+        background-color: rgb(92, 179, 154);
+        
+    }
+
+    h1{
+
+        background-color: transparent;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+
+        margin: 0 auto;
+        font-size: 10vw;
+
+       
+    }
+
+    h3{
+        background-color: transparent;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+
+        margin: 0 auto;
+        font-size: 5vw;
+    }
+
 
 </style>
-</head>
-  
 <body>
 
-<div class="container">
-  <img src="https://raw.githubusercontent.com/Pedro4064/Portfolio/master/Images/ImagesHTML/01.png" alt="image one" style="width:100%">
-</div>
+    
+    <div class="title">
 
+        <h1>Projects</h1>
+        <h3>Pedro Henrique L. da Cruz</h3>
 
+    </div>
 
-<div class="container">
-  <img src="https://raw.githubusercontent.com/Pedro4064/Portfolio/master/Images/ImagesHTML/02.png" alt="image 2" style="width:100%">
+    
+    <div class="transition_rectangle" style="top: 50%; left: 5%; background-color: rgb(122, 233 , 201);"></div>
+    <div class="transition_horizontal_rectangle" style="position: absolute; top: 5%; right: 0px; background-color: rgb(122, 233 , 201);" ></div>
 
-  <p class="p1">
-    &emsp;&emsp;I am Pedro Henrique Limeira da Cruz, I was born in Canoas, Rio Grande do Sul, and I had to move quite frequently because of my father, who is in the military. When I was X years old I moved to Natal, where I lived for Y years. After that I moved to Brasilia, where I spent most of my life and attended the Military School of Brasilia (CMB).<br>
-    &emsp;&emsp;In 2015 I moved to Maryland, United States of America, where I lived for one year and a half and attended Tilden Middle School, while attending the military school’s long distance learning program.<br>
-    &emsp;&emsp;When I moved back to Brazil I went back to the Military School of Brasília, already in 11th grade (the first year of high school in Brazil), and joined the marching band, the Foreign Relations Club, and the Robotics Laboratory.<br> 
-  </p>
-</div>
+    <div class="about_me"></div>
 
-<div class="container">
-  <img src="https://raw.githubusercontent.com/Pedro4064/Portfolio/master/Images/ImagesHTML/3.png" alt="image 3" style="width:100%">
-  <img id="ArduinoLogo" src="https://raw.githubusercontent.com/Pedro4064/Portfolio/master/Images/ImagesHTML/arduino-icon-2.png" alt="arduino">
-  <button id="ArduinoButton" name="button" onclick="window.location.href='https://pedro4064.github.io/Portfolio/sorry.html'">Arduino Projects</button>
-</div>
+    <div class="transition_rectangle" style="top: 150%; right: 50px; background-color: white;"></div>
+    <div class="robotics"></div>
+    <div >
+        <img id="arduino_logo" src="https://github.com/Pedro4064/Portfolio/blob/master/Images/ImagesHTML/arduino-icon-2.png?raw=true" alt="">
+    </div>
+    <!-- <div class="transition_horizontal_rectangle" style="position: absolute; top: 1000% ; left: 0px; background-color: rgb(233, 122, 122)" ></div> -->
 
-<div class="container">
-  <img src="https://raw.githubusercontent.com/Pedro4064/Portfolio/master/Images/ImagesHTML/04.png" alt="image 4" style="width:100%">
+    
+    <div class="programming"></div>
+    <div class="programming_languages">
+        <img class="programming_logo"  style="bottom: 20%; left: 5%;" src="/Users/pedrocruz/Desktop/Programming/webPortifolio/Images/Python Logo.png" alt="">
+        <img class="programming_logo" style="bottom: 20%; right: 5%;" src="/Users/pedrocruz/Desktop/Programming/webPortifolio/Images/c Logo.png" alt="">
+    </div>
 
-  <button id="Python" onclick="window.location.href='https://github.com/Pedro4064'">View Python projects</button>
-  <button id="cpp" onclick="window.location.href='https://pedro4064.github.io/Portfolio/sorry.html'">View c++ projects</button>
-</div>
-
- <div class="container">
-    <img src="https://raw.githubusercontent.com/Pedro4064/Portfolio/master/Images/ImagesHTML/05.png" alt="image 5" style="width:100%">
-    <button id="Modeling" onclick="window.location.href='https://pedro4064.github.io/Portfolio/3d.html'">View 3d Modeling projects</button>
-</div>
-
+    <div class="modelling"></div>
+    <div class="transition_rectangle" style="position: absolute; top: 400%; left: 50px; background-color: rgb(122, 233 , 201);"></div>
 </body>
 </html>
