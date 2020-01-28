@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Pedro Cruz</title> 
+    <link rel="icon" href="https://github.com/Pedro4064/Portfolio/blob/master/Images/Penguim.png?raw=true">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+
 </head>
 
 <style>
@@ -55,22 +59,22 @@
     .robotics{
 
         position: absolute;
-        top: 200%;
+        top: 300%;
         right: 0;
-        background-color: white;
+        background-color: rgb(122, 233 , 201);
         width: 100%;
         height: 100%;
     }
     
     .programming{
 
-        background-color: rgb(122, 233 , 201);
+        background-color: white;
         position: absolute;
 
         height: 100%;
         width: 100%;
 
-        top: 300%;
+        top: 200%;
         right: 0;
     }
 
@@ -85,16 +89,26 @@
         right: 0;
     }
 
-    body{
-        /* background-image: url("/Users/pedrocruz/Desktop/Programming/webPortifolio/Images/IMG_3769.JPG"); */
-        /* background-size: 75%; */
-        /* background-color: rgb(122, 233 , 201); */
-
-    }
-
+    
     html { 
 
         background: url("/Users/pedrocruz/Desktop/Programming/webPortifolio/Images/IMG_3769.JPG") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    html:before {
+        content: "";
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -10;
+        background: url(photos/2452.jpg) no-repeat center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -120,10 +134,15 @@
     #arduino_logo{
 
         position: absolute;
-        right: 5%;
-        top: 210%;
+        right: 20%;
+        bottom: 3%;
+        /* z-index: 5; */
 
-        max-width: 20%;
+        max-width: 15vw;
+        min-width: 15vh;
+        border-radius: 100%;
+        border: 5px solid white;
+        
         
         /* max-height: 25%; */
     }
@@ -131,6 +150,90 @@
         opacity: 50%;
         border-radius: 50%;
         background-color: rgb(92, 179, 154);
+    }
+
+
+    #pi_logo{
+
+        position: absolute;
+        bottom: 3%;
+        left: 20%;
+
+        max-width: 15vw;
+        min-width: 15vh;
+
+        /* background-color: tomato; */
+    
+    }
+
+    #pi_logo:hover{
+
+        opacity: 50%;
+        border-radius: 10%;
+        background-color: rgb(92, 179, 154);
+
+    }
+
+
+    #robotics_logos{
+
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        width: 100%;
+        height: 33%;
+        /* background-color: violet; */
+
+
+    }
+
+
+
+    #profile_picture{
+
+        border-radius: 5%;
+        
+        position: relative;
+        float: left;
+        left: 5%;
+
+        max-width: 25vw;
+    }
+
+
+
+    #modelling_logos{
+
+        position: absolute;
+        bottom: 0;
+
+        height: 33%;
+        width: 100%;
+
+        /* background-color: tomato; */
+
+    }
+
+
+    #fusion_logo{
+
+        max-width: 10vw;
+
+        
+        
+        position: absolute;
+
+        bottom: 5%;
+        right: 5%;
+    }
+
+    #fusion_logo:hover{
+
+    opacity: 50%;
+    border-radius: 10%;
+    /* background-color: rgb(92, 179, 154); */
+
     }
 
     .programming_languages{
@@ -141,7 +244,7 @@
         /* background-color: violet; */
 
         position: absolute;
-        top: 370%;
+        top: 270%;
         right: 0;
     }
 
@@ -168,7 +271,7 @@
 
         background-color: transparent;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Comfortaa', cursive;
         color: white;
 
         margin: 0 auto;
@@ -180,46 +283,138 @@
     h3{
         background-color: transparent;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Comfortaa', cursive;
         color: white;
 
         margin: 0 auto;
         font-size: 5vw;
     }
 
+    h5{
+
+        background-color: transparent;
+        text-align: left;
+
+        position: relative;
+        top: 2.5%; 
+        left: 5%;
+
+        font-family: 'Comfortaa', cursive;
+        
+        width: 50%;
+        /* margin: 0 auto; */
+        font-size: 4.5vh;
+        
+    }
+
+    p{
+        background-color: transparent;
+
+        text-align: justify;
+        line-height:normal;
+        text-indent: 5%;
+
+        position: relative;
+        
+        font-family: 'Comfortaa', cursive;
+        overflow: scroll;
+        
+        width: 50%;
+        max-height: 70%;
+        /* margin: 0 auto; */
+        /* font-size: 3vw;   */
+        font-size: calc(10px + 1vw);
+    
+    }
+
+    li{
+        position: relative;
+        left: 15%;
+        font-family: 'Comfortaa', cursive;
+        font-size: calc(10px + 1vw);
+        text-align: justify;
+        line-height:normal;
+    }
 
 </style>
 <body>
 
-    
+    <!-- First Block, It displayes the image and the title -->
     <div class="title">
 
-        <h1>Projects</h1>
+        <h1 >Projects</h1>
         <h3>Pedro Henrique L. da Cruz</h3>
 
     </div>
 
     
+    <!-- Transition Rectangles from the first to sencod panels -->
     <div class="transition_rectangle" style="top: 50%; left: 5%; background-color: rgb(122, 233 , 201);"></div>
     <div class="transition_horizontal_rectangle" style="position: absolute; top: 5%; right: 0px; background-color: rgb(122, 233 , 201);" ></div>
 
-    <div class="about_me"></div>
-
-    <div class="transition_rectangle" style="top: 150%; right: 50px; background-color: white;"></div>
-    <div class="robotics"></div>
-    <div >
-        <img id="arduino_logo" src="https://github.com/Pedro4064/Portfolio/blob/master/Images/ImagesHTML/arduino-icon-2.png?raw=true" alt="">
+    <!-- About me block, contains text an a photo -->
+    <div class="about_me">
+        <h5 style="color: white;">About Me</h5>
+        <img id="profile_picture" src="/Users/pedrocruz/Desktop/Programming/webPortifolio/Images/me.png" alt="">
+        <p style="float: right; top: -2.5%;right: 15%;">
+             Did you ever hear the Tragedy of Darth Plagueis the wise? I thought not. 
+             It's not a story the Jedi would tell you. It's a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life... 
+             He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. 
+             The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful... the only thing he was afraid of was losing his power, which eventually, of course, he did. 
+             Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. 
+             It's ironic he could save others from death, but not himself.
+        </p>
     </div>
-    <!-- <div class="transition_horizontal_rectangle" style="position: absolute; top: 1000% ; left: 0px; background-color: rgb(233, 122, 122)" ></div> -->
 
+
+    <div class="transition_rectangle" style="top: 150%; right: 5%; background-color: white;"></div>
     
-    <div class="programming"></div>
+    <!-- Programming Block -->
+    <div class="programming">
+        <h5 style="color: black;">Programming</h5>
+        <p style="top: 8%; left: 2%; width: 80%;">•Mostly written in Python and C++, most software focus on two main areas: </p>
+
+        <ul style="list-style-type:square; position: relative; top: 10%; width: 80%;">
+            <li>Automation</li>
+            <li>Resource Management</li>
+            <li>Microcontrollers / robotics</li>
+          </ul> 
+
+    </div>
+
     <div class="programming_languages">
+
         <img class="programming_logo"  style="bottom: 20%; left: 5%;" src="/Users/pedrocruz/Desktop/Programming/webPortifolio/Images/Python Logo.png" alt="">
         <img class="programming_logo" style="bottom: 20%; right: 5%;" src="/Users/pedrocruz/Desktop/Programming/webPortifolio/Images/c Logo.png" alt="">
+
+    </div>
+    
+
+    <!-- Robotics block, contains text and the arduino logo, if the iser clicks it they will be redirected to the dedicated robotics page -->
+    <div class="robotics">
+
+        <h5 style="color: black;">Robotics</h5>
+        <div class="transition_horizontal_rectangle" style="position: relative; top: -5%; background-color: rgb(122, 233 , 201); width: 30vh; height: 1.5vh;"></div>
+        <div id="robotics_logos">
+            <img id="pi_logo" src="/Users/pedrocruz/Desktop/Programming/webPortifolio/Images/rPiLogo.png" alt="">
+            <img id="arduino_logo" src="https://github.com/Pedro4064/Portfolio/blob/master/Images/Old%20Images/ImagesHTML/arduino-icon-2.png?raw=true" alt="">
+        </div>
+
     </div>
 
-    <div class="modelling"></div>
-    <div class="transition_rectangle" style="position: absolute; top: 400%; left: 50px; background-color: rgb(122, 233 , 201);"></div>
+
+
+    <!-- 3D modelling block -->
+    <div class="modelling">
+        <h5 style="color: rgb(122, 233 , 201);"> 3D Modelling</h5>
+        <div id="modelling_logos">
+
+            <img id="fusion_logo" src="/Users/pedrocruz/Desktop/Programming/webPortifolio/Images/FusionLogo.png" alt="">
+
+        </div>
+    </div>
+    <div class="transition_rectangle" style="position: absolute; top: 400%; left: 2.5%; background-color: rgb(122, 233 , 201);"></div>
+
+
 </body>
 </html>
