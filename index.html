@@ -8,6 +8,7 @@
     <title>Pedro Cruz</title> 
     <link rel="icon" href="https://github.com/Pedro4064/Portfolio/blob/master/Images/Penguim.png?raw=true">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -216,14 +217,26 @@
 
         border-radius: 5%;
         
-        position: relative;
+        /* position: relative; */
+        margin: 0 auto;
         float: left;
         left: 5%;
 
-        max-width: 25vw;
+        max-width: 50%;
     }
 
+    #about_me_container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        
+        position: relative;
+        margin: 0 auto;
+        /* padding: 20px; */
+        /* left: 20%; */
+        row-gap: 5%;
+        column-gap: 0%;
 
+    }
 
     #modelling_logos{
 
@@ -333,20 +346,20 @@
     p{
         background-color: transparent;
 
-        text-align: justify;
+        /* text-align: justify; */
         line-height:normal;
         text-indent: 5%;
-
-        position: relative;
+        margin: 0 auto;
+        
         
         font-family: 'Comfortaa', cursive;
         overflow: scroll;
         
-        width: 50%;
-        max-height: 70%;
+        width: 100%;
+        max-height: 90%;
         /* margin: 0 auto; */
         /* font-size: 3vw;   */
-        font-size: calc(10px + 1vw);
+        font-size: calc(8px + 1vw);
     
     }
 
@@ -359,6 +372,8 @@
         text-align: justify;
         line-height:normal;
     }
+
+ 
 
 </style>
 <body>
@@ -379,20 +394,22 @@
     <!-- About me block, contains text an a photo -->
     <div class="about_me">
         <h5 style="color: white;">About Me</h5>
-        <img id="profile_picture" src="https://github.com/Pedro4064/Portfolio/blob/master/Images/Logos/me.png?raw=true" alt="">
+        <div id="about_me_container">
+            <img id="profile_picture" src="Images/IMG_9379_Original.jpg" alt="">
 
-        <p style="float: right; top: -2.5%;right: 15%;">
-             Did you ever hear the Tragedy of Darth Plagueis the wise? I thought not. 
-             It's not a story the Jedi would tell you. It's a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life... 
-             He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. 
-             The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful... the only thing he was afraid of was losing his power, which eventually, of course, he did. 
-             Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. 
-             It's ironic he could save others from death, but not himself.
-        </p>
+            <p style="float: right; top: -2.5%;right: 15%;">
+                Did you ever hear the Tragedy of Darth Plagueis the wise? I thought not. 
+                It's not a story the Jedi would tell you. It's a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life... 
+                He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. 
+                The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful... the only thing he was afraid of was losing his power, which eventually, of course, he did. 
+                Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. 
+                It's ironic he could save others from death, but not himself.
+            </p>
+        </div>
     </div>
 
 
-    <div class="transition_rectangle" style="top: 150%; right: 5%; background-color: white;"></div>
+    <div class="transition_rectangle" style="top: 195%; right: 5%; background-color: white;"></div>
     
     <!-- Programming Block -->
     <div class="programming">
@@ -447,6 +464,6 @@
     </div>
     <div class="transition_rectangle" style="position: absolute; top: 400%; left: 2.5%; background-color: rgb(122, 233 , 201);"></div>
 
-
+  
 </body>
 </html>
