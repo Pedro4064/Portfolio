@@ -87,7 +87,7 @@
         background-color: black;
         position: absolute;
 
-        height: 120%;
+        height: 100%;
         width: 100%;
 
         top: 430%;
@@ -97,46 +97,19 @@
     
     html { 
 
-        background: url("https://github.com/Pedro4064/Portfolio/blob/master/Images/Logos/IMG_3769.JPG?raw=true") no-repeat center center fixed; 
+        background: url("https://github.com/Pedro4064/Portfolio/blob/master/Images/Logos/IMG_3769.JPG?raw=true") no-repeat  fixed; 
+        min-height:100%;
+        background-position: center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
 
     }
     
-     html:before {
-        content: "";
-        display: block;
-        position: fixed;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -10;
-        background: url(photos/2452.jpg) no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
 
-    html:before {
-        content: "";
-        display: block;
-        position: fixed;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -10;
-        background: url(photos/2452.jpg) no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
 
     .title{
 
@@ -486,8 +459,16 @@
     <div class="modelling">
 
         <h5 style="color: rgb(122, 233 , 201);"> 3D Modelling</h5>
-        <div id="modelling_logos">
+        <p style="top: 10%; left: 2%; width: 80%; color: white;">
+            •First contact with 3d modelling was on 8th grade with Google Sketch up. But on my 1st year at high school (once I go into my school's robotics lab) 
+             I started using Autodesk’s Fusion 360, which is an engineering focussed 3d modelling cloud based software capable of running simulations and integration 
+             with Autodesk’s electronics software EAGLE. <br><br>
+            *The main projects can be accessed by clicking in the logo below:    
+        </p>
 
+        
+
+        <div id="modelling_logos">
             <a href="3dModelling.html">
                 <img id="fusion_logo" src="https://github.com/Pedro4064/Portfolio/blob/master/Images/Logos/FusionLogo.png?raw=true" alt="">
             </a>
