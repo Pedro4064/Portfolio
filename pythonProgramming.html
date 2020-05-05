@@ -12,34 +12,74 @@
 
 </head>
 <style>
-    .container{
-
-        position: absolute;
-        top: 25%;
-        left: 5%;
-
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-        row-gap: 5%;
+    
+    * {
+        box-sizing: border-box;
     }
 
-    .images{
-
-      
-        width: 90%;  
-        border-radius: 0.5px 30px 30px 30px;
-        cursor: alias;
-
+    body {
+        margin: 0;
+        font-family: Arial;
     }
 
-    .images:hover{
+    .header {
+        text-align: center;
+        padding: 32px;
+    }
 
-        opacity: 50%;
+    .row {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    /* Create four equal columns that sits next to each other */
+    .column {
+        -ms-flex: 25%; /* IE10 */
+        flex: 25%;
+        max-width: 50%;
+        padding: 0 4px;
+        
+        position: relative;
+        top: 150px;
+        text-align: center;
+    }
+
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    .column img:hover {
+        opacity: 0.5;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
     }
 
 
     html{
-        background-color: white;
+        /* background-color: rgb(153, 221, 202); */
+        background-color: black;
     }
 
     h1{
@@ -53,7 +93,7 @@
         text-align: center;
         color: rgb(122, 233 , 201);
         font-family: 'Comfortaa', cursive;
-        font-size: 5vw;
+        font-size: 6vh;
 
     }
 
@@ -62,7 +102,7 @@
 <body>
     <h1>Python Programming</h1>
 
-    <div class="container">
+    <!-- <div class="container">
         
         <a href="https://github.com/Pedro4064/Anime-NAS">
             <img class="images" src="https://repository-images.githubusercontent.com/240377228/23f73200-529c-11ea-8dee-676d86d0bb8e" alt="" >
@@ -82,6 +122,37 @@
         <a href="https://github.com/Pedro4064/">
             <img class="images" src="https://github.com/Pedro4064/Portfolio/blob/master/Images/Logos/Github%20Logo.png?raw=true" alt="" >
         </a>
-    </div>
+    </div> -->
+
+    <div class="row"> 
+        <div class="column">
+          
+        
+          <a href="https://github.com/Pedro4064/Anime-NAS">
+            <img src="https://repository-images.githubusercontent.com/240377228/6b009b00-8cc1-11ea-937b-17ef90f2895c">
+          </a>
+
+          <a href="https://github.com/Pedro4064/MangaDownloader">
+            <img class="images" src="https://repository-images.githubusercontent.com/172394292/e2d4a900-76b4-11ea-9dac-732195a004a4" alt="" >
+         </a>
+        
+      
+        </div>
+      
+        <div class="column">
+      
+            <a href="https://github.com/Pedro4064/Anime-NAS">
+                <img class="images" src="https://repository-images.githubusercontent.com/196462020/b61f9200-76b2-11ea-9625-fb09c643b5a7" alt="" >
+            </a>
+    
+    
+            <a href="https://github.com/Pedro4064/">
+                <img class="images" src="https://github.com/Pedro4064/Portfolio/blob/master/Images/Logos/Github%20Logo.png?raw=true" alt="" >
+            </a> 
+
+        </div>  
+      
+      </div>
+
 </body>
 </html>
